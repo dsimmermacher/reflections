@@ -1,0 +1,13 @@
+git init - Inits working directory for potential commits of its included files.
+git log - Shows commit overview
+git log --graph --oneline master xy1 xy2 .. - Shows Branch History in one lined listing
+git status - Shows status of files and changes in working directory, staged and commit.
+git add file_xy - adds file to stage (separately done for "one commit per logical change rule") 
+git commit - commits files in staged. Enter descriptive commit comment with verb in front ("ADD xy")
+git checkout master - go back to master
+git checkout xy - checks out Branch xy and goes to Branch xy
+git checkout commit_nr - checks out commit Nr commit_nr.
+git checkout commit_nr -b newBranchName; - checks out commit and creates new branch with it.
+git branch - shows overview on available branches in lokal worksapce
+git branch xy -adds branch xy based on actual master
+git reset file_xy - removes file_xy from staged.
