@@ -11,6 +11,7 @@ git checkout commit_nr -b newBranchName; - checks out commit and creates new bra
 git branch - shows overview on available branches in lokal worksapce
 git branch xy -adds branch xy based on actual master
 git reset file_xy - removes file_xy from staged.
+git reset HEAD~ - reverts the last commit, but changes while merging are still there.
 git diff - shows difference between working directory and staged area
 git diff --staged - shows difference between staged area and commit in repository.
 git merge master branch_xy - merges two branches into master
