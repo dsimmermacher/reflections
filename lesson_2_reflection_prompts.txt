@@ -19,6 +19,8 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+  They show the history tree including all different branches and their commits including ID, Commit Message and Branch Name.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
