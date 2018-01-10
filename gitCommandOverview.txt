@@ -1,3 +1,4 @@
+git clone xy - clones repository from address xy (e.g. https://...) to local directory
 git init - Inits working directory for potential commits of its included files.
 git log - Shows commit overview
 git log --graph --oneline master xy1 xy2 .. - Shows Branch History in one lined listing
@@ -17,3 +18,6 @@ git diff --staged - shows difference between staged area and commit in repositor
 git merge master branch_xy - merges two branches into master
 git branch -d branch_xy - deletes branch_xy
 git show commit_ID - shows difference between commit and its parent
+
+git remote add <link> - adds github URL
+git remote -v - shows info about fetsh and push origin.
