@@ -19,5 +19,6 @@ git merge master branch_xy - merges two branches into master
 git branch -d branch_xy - deletes branch_xy
 git show commit_ID - shows difference between commit and its parent
 
-git remote add <link> - adds github URL
-git remote -v - shows info about fetsh and push origin.
+git remote add  <origin> <link> - names origin and adds github URL
+git remote -v - shows info about fetch and push origin.
+git push <origin> master - pushes committed changes to master in GitHub
