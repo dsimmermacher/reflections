@@ -23,3 +23,7 @@ git remote add  <origin> <link> - names origin and adds github URL
 git remote -v - shows info about fetch and push origin.
 git push <origin> master - pushes committed changes to master in GitHub
 git pull <origin> master - pulls master-tree to local repository.
+
+git fetch <origin> -creates local branch with origin/master, that can be merged with local master 
+git diff origin/master - shows diff between origin master and master
+git merge origin origin/master - merge origin master an local master (see above)
