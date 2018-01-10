@@ -22,3 +22,4 @@ git show commit_ID - shows difference between commit and its parent
 git remote add  <origin> <link> - names origin and adds github URL
 git remote -v - shows info about fetch and push origin.
 git push <origin> master - pushes committed changes to master in GitHub
+git pull <origin> master - pulls master-tree to local repository.
