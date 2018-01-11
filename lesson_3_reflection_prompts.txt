@@ -23,7 +23,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without GitHub collaboration can be done by shared directorys and version numbering of files. Diff could get run manually to merge. Not using GitHub is partly "easier" because of no different formal steps and commands for the action needed, on the other hand, the activity without GitHub would be rather based on loose communication and needs more discipline to work.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
