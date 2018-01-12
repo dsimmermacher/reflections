@@ -28,4 +28,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Changes in a separate branch offer a "playground" and can be part of separate versions of a program (version branch). Working on the master is more straight forward, since les merging activity is needed. Especially in complex projects with many terams working on the same program, branching for every new part of the logic can end up in a total mess of merging in unclear inbetween merge-states. Drectly merging the code in the master may need more continuous cooperation with others, but the versions can't move away from each other so quickly.
