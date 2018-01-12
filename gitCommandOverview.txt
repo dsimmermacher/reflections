@@ -2,6 +2,7 @@ git clone xy - clones repository from address xy (e.g. https://...) to local dir
 git init - Inits working directory for potential commits of its included files.
 git log - Shows commit overview
 git log --graph --oneline master xy1 xy2 .. - Shows Branch History in one lined listing
+git log -n1 -shows las commit
 git status - Shows status of files and changes in working directory, staged and commit.
 git add file_xy - adds file to stage (separately done for "one commit per logical change rule") 
 git commit - commits files in staged. Enter descriptive commit comment with verb in front ("ADD xy")
@@ -27,3 +28,8 @@ git pull <origin> master - pulls master-tree to local repository.
 git fetch <origin> -creates local branch with origin/master, that can be merged with local master 
 git diff origin/master - shows diff between origin master and master
 git merge origin origin/master - merge origin master an local master (see above)
+
+
+git rebase -i -> zeigt letzte commits + Auswahl, was damit gemacht wird.
+git commit --ammend
+gitk - interaktive Übersicht der commits + Handlungsoptionen
