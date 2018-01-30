@@ -6,18 +6,22 @@ git log -n1 -shows las commit
 git status - Shows status of files and changes in working directory, staged and commit.
 git add file_xy - adds file to stage (separately done for "one commit per logical change rule") 
 git commit - commits files in staged. Enter descriptive commit comment with verb in front ("ADD xy")
+
 git checkout master - go back to master
 git checkout xy - checks out Branch xy and goes to Branch xy
 git checkout commit_nr - checks out commit Nr commit_nr.
 git checkout commit_nr -b newBranchName; - checks out commit and creates new branch with it.
+
 git branch - shows overview on available branches in lokal worksapce
 git branch xy -adds branch xy based on actual master
+git branch -d branch_xy - deletes branch_xy
+
 git reset file_xy - removes file_xy from staged.
 git reset HEAD~ - reverts the last commit, but changes while merging are still there.
 git diff - shows difference between working directory and staged area
 git diff --staged - shows difference between staged area and commit in repository.
+
 git merge master branch_xy - merges two branches into master
-git branch -d branch_xy - deletes branch_xy
 git show commit_ID - shows difference between commit and its parent
 
 git remote add  <origin> <link> - names origin and adds github URL
@@ -29,7 +33,7 @@ git fetch <origin> -creates local branch with origin/master, that can be merged 
 git diff origin/master - shows diff between origin master and master
 git merge origin origin/master - merge origin master an local master (see above)
 
-
+git pull <origin master/any branch> --rebase: Set local branch on top of another branch or the remote master.
 git rebase -i -> zeigt letzte commits + Auswahl, was damit gemacht wird.
 git commit --ammend
 gitk - interaktive Übersicht der commits + Handlungsoptionen
